@@ -19,6 +19,9 @@ function Formulario(props) {
             cargo, 
             imagem, 
             time});
+        setNome('');
+        setCargo('');
+        setImagem('');
     }
 
     return(
